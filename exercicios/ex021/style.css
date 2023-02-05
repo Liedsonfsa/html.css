@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+h1{
+    background-color: aliceblue;
+    block-size: 300px;
+    inline-size: 300px;
+
+    border: 10px solid darkorchid;
+
+    padding: 10px;
+
+    margin: 20px auto 40px auto;
+
+    outline: 5px dashed blueviolet;
+
+    margin: auto;
+}
+
+div{
+    background-color: aqua;
+}
