@@ -42,7 +42,7 @@ main  p{
 
 header{
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
-    min-block-size: 150px;
+    height: 150px;
     text-align: center;
     padding: 40px;
 }
@@ -60,7 +60,7 @@ header > p{
     color: white;
     font-family: var(--fonte-padrao);
     font-size: 1.2em;
-    max-inline-size: 600px;
+    max-width: 600px;
     margin: auto;
     margin-block-end: 30px;
     padding-inline-end: 10px;
