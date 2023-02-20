@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <!-- Aula 34-->
+    <h1>Inserindo vídeos hospadados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <!-- A primeira forma, consome dados do servidor-->
+    <video width="500" height="600" controls loop>
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="midia/meu-video.m4v" type="video/mp4">
+    </video>
+    
+    <h1>Inserindo vídeos do YouTube</h1>
+    <!-- A segunda forma não consome dados do servidor-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/P7Cz2IPe5J8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <p><a href="https://www.youtube.com/watch?v=1-w1RfGIov4&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1">Ver o curso completo </a> Ver o curso completo</p>
+
+    
+</body>
+</html>
